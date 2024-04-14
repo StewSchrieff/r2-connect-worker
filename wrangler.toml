@@ -4,6 +4,12 @@ main = "src/index.ts"
 compatibility_date = "2024-04-05"
 compatibility_flags = ["nodejs_compat"]
 
+account_id = "e038d5160c0959e568d7d533a4847e33"
+
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "ai-ad-generator"
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
